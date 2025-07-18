@@ -1,0 +1,57 @@
+
+
+
+
+*{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#Head{
+    margin-left: 42vw
+}
+
+#laundry{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    width: 30rem ;
+    height: 15rem;
+}
+
+
+body{
+   background-image:linear-gradient(#780000 , #c1121f, #a3b18a, #003049, #669bbc, #ee9b00, #ca6702, #03045e, #003566, #000814);
+   color: wheat;
+
+}
+
+@media screen and (max-width: 400px) {
+   *{
+        width: auto;
+
+    }
+
+    .heading{
+       margin-left: -25vw; ;
+        height: 0.5;
+    }
+   
+
+
+    
+
+
+
+    #laundry{
+        width: 100%;
+        height: auto;
+    }
+    textarea{
+        width: 100%;
+        height: auto;
+    }
+    hr{
+        width: 106vw;    }
+   
+}
